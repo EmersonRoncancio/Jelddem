@@ -1,10 +1,12 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
 import { Hero } from "./components/hero/hero";
 import { Services } from "./components/services/services";
+import { Projects } from "./components/projects/projects";
+import { About } from "./components/about/about";
 
 @Component({
   selector: 'app-home',
-  imports: [Hero, Services],
+  imports: [Hero, Services, Projects, About],
   templateUrl: './home.html',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
