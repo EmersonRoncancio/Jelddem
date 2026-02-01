@@ -26,5 +26,6 @@ export class Technologies {
     { name: "WordPress", category: "CMS", url:"https://wordpress.org/" },
     { name: "n8n", category: "Automation", url:"https://n8n.io/" },
     { name: "make.com", category: "Automation", url:"https://www.make.com/" },
+    { name: "Figma", category: "Design", url:"https://www.figma.com/" },
   ])
 }
