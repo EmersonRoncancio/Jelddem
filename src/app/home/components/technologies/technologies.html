@@ -11,11 +11,11 @@
     >
       @for (tech of technologies(); track tech.name) {
         <div class="group flex flex-col items-center gap-2">
-          <span
-            class="text-lg font-semibold text-foreground transition-colors group-hover:text-accent"
+          <a [href]="tech.url" target="_blank"
+            class="text-lg font-semibold text-foreground transition-colors group-hover:text-purple-950"
           >
             {{ tech.name }}
-          </span>
+        </a>
 
           <span class="text-xs text-muted-foreground">
             {{ tech.category }}
