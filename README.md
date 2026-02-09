@@ -1,10 +1,10 @@
-# OwlSolutions 🦉
+# Jelddem 🦉
 
-Sitio web corporativo de OwlSolutions - Una empresa de desarrollo de software especializada en soluciones digitales innovadoras.
+Sitio web corporativo de Jelddem - Una empresa de desarrollo de software especializada en soluciones digitales innovadoras.
 
 ## 🚀 Acerca del Proyecto
 
-OwlSolutions es una plataforma web moderna construida con Angular 21 que muestra los servicios, proyectos y capacidades de la empresa. El sitio incluye:
+Jelddem es una plataforma web moderna construida con Angular 21 que muestra los servicios, proyectos y capacidades de la empresa. El sitio incluye:
 
 - **Landing Page Moderna**: Diseño responsivo con animaciones y efectos visuales
 - **Secciones Principales**:
@@ -38,7 +38,7 @@ OwlSolutions es una plataforma web moderna construida con Angular 21 que muestra
 1. Clona el repositorio:
 ```bash
 git clone <repository-url>
-cd OwlSolutions
+cd Jelddem
 ```
 
 2. Instala las dependencias:
@@ -123,7 +123,7 @@ ng test
 ## 📞 Contacto
 
 - **WhatsApp**: +57 300 781 0339
-- **Email**: contacto@owlsolutions.com
+- **Email**: contacto@Jelddem.com
 
 ## 🔗 Enlaces Útiles
 
@@ -133,8 +133,8 @@ ng test
 
 ## 📄 Licencia
 
-Este proyecto es privado y pertenece a OwlSolutions.
+Este proyecto es privado y pertenece a Jelddem.
 
 ---
 
-Desarrollado con ❤️ por el equipo de OwlSolutions
+Desarrollado con ❤️ por el equipo de Jelddem

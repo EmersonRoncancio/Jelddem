@@ -7,7 +7,7 @@
   },
   "newProjectRoot": "projects",
   "projects": {
-    "OwlSolutions": {
+    "Jelddem": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -58,10 +58,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "OwlSolutions:build:production"
+              "buildTarget": "Jelddem:build:production"
             },
             "development": {
-              "buildTarget": "OwlSolutions:build:development"
+              "buildTarget": "Jelddem:build:development"
             }
           },
           "defaultConfiguration": "development"
