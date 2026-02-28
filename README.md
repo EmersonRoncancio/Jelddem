@@ -1,10 +1,10 @@
-# Jelddem 🦉
+# Siwina 🦉
 
-Sitio web corporativo de Jelddem - Una empresa de desarrollo de software especializada en soluciones digitales innovadoras.
+Sitio web corporativo de Siwina - Una empresa de desarrollo de software especializada en soluciones digitales innovadoras.
 
 ## 🚀 Acerca del Proyecto
 
-Jelddem es una plataforma web moderna construida con Angular 21 que muestra los servicios, proyectos y capacidades de la empresa. El sitio incluye:
+Siwina es una plataforma web moderna construida con Angular 21 que muestra los servicios, proyectos y capacidades de la empresa. El sitio incluye:
 
 - **Landing Page Moderna**: Diseño responsivo con animaciones y efectos visuales
 - **Secciones Principales**:
@@ -36,12 +36,14 @@ Jelddem es una plataforma web moderna construida con Angular 21 que muestra los 
 ## 🔧 Instalación
 
 1. Clona el repositorio:
+
 ```bash
 git clone <repository-url>
-cd Jelddem
+cd Siwina
 ```
 
 2. Instala las dependencias:
+
 ```bash
 npm install
 ```
@@ -115,7 +117,7 @@ ng test
 ## 🎨 Características de Diseño
 
 - **Responsive Design**: Adaptado a móviles, tablets y desktop
-- **Tema Personalizado**: Paleta de colores morado/púrpura (#purple-950, #purple-900)
+- **Tema Personalizado**: Paleta de color principal #902bcc
 - **Animaciones Suaves**: Transiciones y efectos hover
 - **Modo Claro/Oscuro**: Variables CSS personalizables
 - **Accesibilidad**: Estructura semántica y navegación por teclado
@@ -123,7 +125,7 @@ ng test
 ## 📞 Contacto
 
 - **WhatsApp**: +57 300 781 0339
-- **Email**: contacto@Jelddem.com
+- **Email**: contacto@Siwina.com
 
 ## 🔗 Enlaces Útiles
 
@@ -133,8 +135,8 @@ ng test
 
 ## 📄 Licencia
 
-Este proyecto es privado y pertenece a Jelddem.
+Este proyecto es privado y pertenece a Siwina.
 
 ---
 
-Desarrollado con ❤️ por el equipo de Jelddem
+Desarrollado con ❤️ por el equipo de Siwina

@@ -1,10 +1,10 @@
-<header class="fixed top-0 left-0 right-0 z-50 border-b border-border/40 bg-background/95 backdrop-blur-md">
+<header
+  class="fixed top-0 left-0 right-0 z-50 border-b border-border/40 bg-background/95 backdrop-blur-md"
+>
   <nav class="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-8">
     <a href="/" class="flex items-center gap-2">
       <!-- <img class="w-12 h-12 object-cover" src="https://res.cloudinary.com/dbpegbhm4/image/upload/v1770592491/WhatsApp_Image_2026-02-06_at_5.20.58_PM-removebg-preview_pu2epp.png" alt="OwlSolutions Logo"> -->
-       <span class="text-2xl font-bold tracking-tight text-foreground">
-        <span class="text-purple-900">Je</span>l<span class="text-purple-900">d</span>d<span class="text-purple-900">em</span>
-       </span>
+      <span class="text-2xl font-bold tracking-tight text-foreground text-[#902bcc]"> Siwina </span>
     </a>
 
     <!-- Desktop Navigation -->
@@ -36,24 +36,35 @@
     </div>
 
     <div class="hidden md:flex">
-      <a href="https://wa.me/573007810339" target="_blank" rel="noopener noreferrer" class="bg-purple-950  text-white hover:bg-purple-900 inline-flex items-center rounded-md px-6 py-3 transition-colors">
+      <a
+        href="https://wa.me/573007810339"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="bg-[#902bcc] text-white hover:bg-[#902bcc] inline-flex items-center rounded-md px-6 py-3 transition-colors"
+      >
         Iniciar Proyecto
       </a>
     </div>
 
     <!-- Mobile Menu Button -->
-    <button
-      type="button"
-      class="md:hidden"
-      (click)="toggleMobileMenu()"
-    >
+    <button type="button" class="md:hidden" (click)="toggleMobileMenu()">
       @if (mobileMenuOpen()) {
         <svg class="h-6 w-6 text-foreground" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M6 18L18 6M6 6l12 12"
+          />
         </svg>
       } @else {
         <svg class="h-6 w-6 text-foreground" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M4 6h16M4 12h16M4 18h16"
+          />
         </svg>
       }
     </button>
@@ -91,7 +102,12 @@
         >
           Contacto
         </a>
-        <a href="https://wa.me/573007810339" target="_blank" rel="noopener noreferrer" class="mt-2 w-full bg-purple-950  text-white hover:bg-purple-900 inline-flex items-center justify-center rounded-md px-6 py-3 transition-colors">
+        <a
+          href="https://wa.me/573007810339"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="mt-2 w-full bg-[#902bcc] text-white hover:bg-[#902bcc] inline-flex items-center justify-center rounded-md px-6 py-3 transition-colors"
+        >
           Iniciar Proyecto
         </a>
       </div>

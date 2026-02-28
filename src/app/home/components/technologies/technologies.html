@@ -1,21 +1,21 @@
 <section class="border-y border-border bg-[#ffff] py-16">
   <div class="mx-auto max-w-7xl px-6 lg:px-8">
     <p
-      class="text-center text-sm font-medium uppercase tracking-wider text-muted-foreground text-purple-950"
+      class="text-center text-sm font-medium uppercase tracking-wider text-muted-foreground text-[#902bcc]"
     >
       Tecnologías con las que trabajamos
     </p>
 
-    <div
-      class="mt-8 flex flex-wrap items-center justify-center gap-8 md:gap-12"
-    >
+    <div class="mt-8 flex flex-wrap items-center justify-center gap-8 md:gap-12">
       @for (tech of technologies(); track tech.name) {
         <div class="group flex flex-col items-center gap-2">
-          <a [href]="tech.url" target="_blank"
-            class="text-lg font-semibold text-foreground transition-colors group-hover:text-purple-950"
+          <a
+            [href]="tech.url"
+            target="_blank"
+            class="text-lg font-semibold text-foreground transition-colors group-hover:text-[#902bcc]"
           >
             {{ tech.name }}
-        </a>
+          </a>
 
           <span class="text-xs text-muted-foreground">
             {{ tech.category }}
