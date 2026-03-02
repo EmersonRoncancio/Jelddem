@@ -1,4 +1,4 @@
-<section id="proceso" class="relative overflow-hidden bg-background py-24">
+<section id="proceso" class="relative overflow-hidden bg-background py-24 scroll-mt-28">
   <!-- Subtle background pattern -->
   <div
     class="absolute inset-0 bg-[linear-gradient(to_right,rgba(144,43,204,0.04)_1px,transparent_1px),linear-gradient(to_bottom,rgba(144,43,204,0.04)_1px,transparent_1px)] bg-size-[6rem_6rem]"
@@ -20,12 +20,15 @@
     <div class="relative mt-20">
       <!-- Connection line (desktop) -->
       <div
-        class="absolute left-[calc(12.5%)] right-[calc(12.5%)] top-8 hidden h-0.5 bg-gradient-to-r from-[#902bcc]/10 via-[#902bcc]/40 to-[#902bcc]/10 lg:block"
+        class="absolute left-[calc(12.5%)] right-[calc(12.5%)] top-8 hidden h-0.5 bg-[linear-gradient(to_right,rgba(144,43,204,0.1),rgba(144,43,204,0.4),rgba(144,43,204,0.1))] lg:block"
       ></div>
 
       <div class="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
         @for (step of steps(); track $index) {
-          <div class="group relative flex flex-col items-center text-center">
+          <div
+            [attr.id]="step.id"
+            class="group relative flex scroll-mt-28 flex-col items-center text-center"
+          >
             <!-- Step number circle -->
             <div
               class="relative z-10 flex h-16 w-16 items-center justify-center rounded-full border-2 border-[#902bcc]/30 bg-white shadow-sm transition-all duration-300 group-hover:border-[#902bcc] group-hover:bg-[#902bcc] group-hover:shadow-lg group-hover:shadow-[#902bcc]/20"
@@ -56,7 +59,7 @@
 
     <!-- Trust Indicators -->
     <div
-      class="mt-20 overflow-hidden rounded-2xl border border-[#902bcc]/15 bg-gradient-to-r from-[#902bcc]/5 via-white to-[#902bcc]/5 p-8 md:p-12"
+      class="mt-20 overflow-hidden rounded-2xl border border-[#902bcc]/15 bg-[linear-gradient(to_right,rgba(144,43,204,0.05),#fff,rgba(144,43,204,0.05))] p-8 md:p-12"
     >
       <p class="mb-8 text-center text-sm font-medium uppercase tracking-wider text-[#902bcc]">
         Nuestro compromiso

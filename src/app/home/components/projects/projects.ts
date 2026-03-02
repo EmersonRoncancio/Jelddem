@@ -10,6 +10,7 @@ import { MatIconModule } from '@angular/material/icon';
 export class Projects {
   steps = signal([
     {
+      id: 'proceso-consulta',
       number: '01',
       title: 'Consulta Inicial',
       description:
@@ -17,6 +18,7 @@ export class Projects {
       icon: 'handshake',
     },
     {
+      id: 'proceso-estrategia',
       number: '02',
       title: 'Estrategia y Diseño',
       description:
@@ -24,6 +26,7 @@ export class Projects {
       icon: 'draw',
     },
     {
+      id: 'proceso-desarrollo',
       number: '03',
       title: 'Desarrollo Ágil',
       description:
@@ -31,6 +34,7 @@ export class Projects {
       icon: 'code',
     },
     {
+      id: 'proceso-entrega',
       number: '04',
       title: 'Entrega y Soporte',
       description:

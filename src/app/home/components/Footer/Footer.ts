@@ -15,15 +15,16 @@ export class Footer {
       { name: 'Sistemas Empresariales', href: '#' },
       { name: 'Consultoría', href: '#' },
     ],
-    empresa: [
-      { name: 'Nosotros', href: '#nosotros' },
-      { name: 'Proceso', href: '#proceso' },
-      { name: 'Blog', href: '#' },
-      { name: 'Carreras', href: '#' },
+    proceso: [
+      { name: 'Consulta Inicial', href: '#proceso-consulta' },
+      { name: 'Estrategia y Diseño', href: '#proceso-estrategia' },
+      { name: 'Desarrollo Ágil', href: '#proceso-desarrollo' },
+      { name: 'Entrega y Soporte', href: '#proceso-entrega' },
     ],
-    legal: [
-      { name: 'Privacidad', href: '#' },
-      { name: 'Términos', href: '#' },
+    contacto: [
+      { name: 'WhatsApp', href: 'https://wa.me/573007810339' },
+      { name: 'LinkedIn', href: 'https://www.linkedin.com/company/siwina/about/' },
+      { name: 'Sección Contacto', href: '#contacto' },
     ],
   });
 }

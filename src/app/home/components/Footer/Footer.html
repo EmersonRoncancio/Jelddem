@@ -16,7 +16,6 @@
 
         <!-- Social links -->
         <div class="mt-6 flex gap-4">
-
           <!-- LinkedIn -->
           <a
             href="https://www.linkedin.com/company/siwina/about/"
@@ -35,7 +34,7 @@
       </div>
 
       <!-- Links -->
-      <div class="grid grid-cols-2 gap-8 sm:grid-cols-3 lg:col-span-3">
+      <div class="grid grid-cols-1 gap-8 sm:grid-cols-3 lg:col-span-3">
         <!-- Servicios -->
         <div>
           <h3 class="text-sm font-semibold text-foreground">Servicios</h3>
@@ -50,28 +49,28 @@
           </ul>
         </div>
 
-        <!-- Empresa -->
+        <!-- Proceso -->
         <div>
-          <h3 class="text-sm font-semibold text-foreground">Empresa</h3>
+          <h3 class="text-sm font-semibold text-foreground">Proceso</h3>
           <ul class="mt-4 space-y-3">
-            @for (companies of footerLinks().empresa; track $index) {
+            @for (step of footerLinks().proceso; track $index) {
               <li>
-                <a href="#nosotros" class="text-sm text-muted-foreground hover:text-foreground">{{
-                  companies.name
+                <a [href]="step.href" class="text-sm text-muted-foreground hover:text-foreground">{{
+                  step.name
                 }}</a>
               </li>
             }
           </ul>
         </div>
 
-        <!-- Legal -->
+        <!-- Contacto -->
         <div>
-          <h3 class="text-sm font-semibold text-foreground">Legal</h3>
+          <h3 class="text-sm font-semibold text-foreground">Contacto</h3>
           <ul class="mt-4 space-y-3">
-            @for (legal of footerLinks().legal; track $index) {
+            @for (item of footerLinks().contacto; track $index) {
               <li>
-                <a href="#" class="text-sm text-muted-foreground hover:text-foreground">{{
-                  legal.name
+                <a [href]="item.href" class="text-sm text-muted-foreground hover:text-foreground">{{
+                  item.name
                 }}</a>
               </li>
             }

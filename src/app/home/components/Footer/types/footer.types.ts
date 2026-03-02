@@ -5,6 +5,6 @@ export interface FooterLink {
 
 export interface FooterLinks {
   servicios: FooterLink[];
-  empresa: FooterLink[];
-  legal: FooterLink[];
+  proceso: FooterLink[];
+  contacto: FooterLink[];
 }
