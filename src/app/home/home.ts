@@ -5,10 +5,11 @@ import { Projects } from "./components/projects/projects";
 import { About } from "./components/about/about";
 import { Cta } from "./components/cta/cta";
 import { Footer } from "./components/Footer/Footer";
+import { WhatsApp } from "./components/whatsapp/whatsapp";
 
 @Component({
   selector: 'app-home',
-  imports: [Hero, Services, Projects, About, Cta, Footer],
+  imports: [Hero, Services, Projects, About, Cta, Footer, WhatsApp],
   templateUrl: './home.html',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
